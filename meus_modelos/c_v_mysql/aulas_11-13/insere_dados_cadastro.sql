@@ -1,0 +1,108 @@
+/* INSERINDO OS DADO NA BASE DE DADOS */
+
+USE cadastro;
+
+INSERT INTO estudantes
+(nome, profissao, data_nascimento, sexo, peso, altura, nacionalidade)
+VALUES
+('Ana Beatriz Silva', 'Engenharia', '2002-03-14', 'F', 58.40, 1.65, 'Brasil'),
+('Carlos Eduardo Lima', 'Programação', '1999-07-22', 'M', 74.80, 1.78, 'Brasil'),
+('Mariana Costa', 'Administração', '2001-11-05', 'F', 62.30, 1.68, 'Brasil'),
+('João Pedro Santos', 'Contabilidade', '1998-01-19', 'M', 81.20, 1.82, 'Brasil'),
+('Lucas Gabriel Oliveira', 'Design', '2003-06-30', 'M', 69.50, 1.75, 'Brasil'),
+('Beatriz Almeida', 'Enfermagem', '2000-09-12', 'F', 57.80, 1.63, 'Brasil'),
+('Rafael Martins', 'Arquitetura', '1997-04-08', 'M', 86.10, 1.80, 'Portugal'),
+('Camila Ferreira', 'Psicologia', '2002-12-17', 'F', 54.70, 1.60, 'Brasil'),
+('Pedro Henrique Rocha', 'Marketing', '2001-02-26', 'M', 77.40, 1.79, 'Argentina'),
+('Juliana Barbosa', 'Direito', '1999-08-03', 'F', 63.90, 1.67, 'Brasil'),
+
+('Mateus Rodrigues', 'Tecnologia da Informação', '2000-05-21', 'M', 72.60, 1.76, 'Brasil'),
+('Larissa Mendes', 'Jornalismo', '2003-10-11', 'F', 59.30, 1.64, 'Brasil'),
+('Gustavo Pereira', 'Economia', '1996-03-29', 'M', 88.70, 1.84, 'Chile'),
+('Amanda Nascimento', 'Fisioterapia', '2001-07-16', 'F', 61.50, 1.70, 'Brasil'),
+('Felipe Carvalho', 'Fotografia', '1998-11-24', 'M', 70.20, 1.73, 'Brasil'),
+('Isabela Gomes', 'Medicina', '1997-06-09', 'F', 55.60, 1.62, 'Portugal'),
+('Bruno Moreira', 'Logística', '2002-01-31', 'M', 79.80, 1.81, 'Brasil'),
+('Letícia Teixeira', 'Pedagogia', '2000-04-18', 'F', 60.40, 1.66, 'Brasil'),
+('Diego Ribeiro', 'Analista de Sistemas', '1995-09-27', 'M', 91.30, 1.87, 'México'),
+('Sofia Monteiro', 'Biologia', '2003-03-07', 'F', 52.90, 1.59, 'Brasil'),
+
+('Thiago Vieira', 'Redes de Computadores', '1999-12-02', 'M', 76.50, 1.77, 'Brasil'),
+('Renata Correia', 'Nutrição', '2001-05-13', 'F', 64.20, 1.69, 'Brasil'),
+('André Luiz Castro', 'Economia', '1996-08-20', 'M', 83.70, 1.83, 'Colômbia'),
+('Fernanda Lopes', 'Farmácia', '2000-02-15', 'F', 58.90, 1.61, 'Brasil'),
+('Rodrigo Fernandes', 'Engenharia Civil', '1998-10-06', 'M', 85.40, 1.85, 'Brasil'),
+('Patrícia Souza', 'Serviço Social', '1997-01-28', 'F', 67.10, 1.72, 'Brasil'),
+('Leonardo Batista', 'Desenvolvimento Web', '2002-06-19', 'M', 73.80, 1.80, 'Brasil'),
+('Carolina Duarte', 'Letras', '2003-09-23', 'F', 56.30, 1.64, 'Portugal'),
+('Marcelo Araújo', 'Eletrônica', '1995-05-04', 'M', 82.90, 1.79, 'Brasil'),
+('Gabriela Cardoso', 'Veterinária', '2001-12-10', 'F', 63.70, 1.68, 'Brasil'),
+
+('Daniel Freitas', 'Banco de Dados', '1999-03-17', 'M', 78.60, 1.82, 'Brasil'),
+('Natália Ramos', 'Química', '2002-07-25', 'F', 60.80, 1.67, 'Brasil'),
+('Vinícius Azevedo', 'Ciência da Computação', '2000-11-14', 'M', 71.40, 1.75, 'Argentina'),
+('Priscila Moraes', 'Gestão de Pessoas', '1998-04-22', 'F', 65.90, 1.71, 'Brasil'),
+('Eduardo Cavalcante', 'Engenharia de Software', '1997-10-30', 'M', 89.20, 1.88, 'Brasil'),
+('Vanessa Tavares', 'Turismo', '2003-01-09', 'F', 53.80, 1.58, 'Brasil'),
+('Henrique Sales', 'Segurança da Informação', '1996-06-27', 'M', 80.50, 1.83, 'Portugal'),
+('Bianca Moura', 'Farmácia', '2001-09-18', 'F', 57.20, 1.63, 'Brasil'),
+('Caio Henrique Reis', 'Finanças', '1999-02-11', 'M', 75.90, 1.78, 'Brasil'),
+('Aline Farias', 'Comunicação', '2000-12-28', 'F', 61.70, 1.66, 'Brasil'),
+
+('Samuel Mendes', 'Suporte Técnico', '1998-07-03', 'M', 84.60, 1.81, 'Brasil'),
+('Manuela Castro', 'Arquitetura', '2002-05-29', 'F', 59.80, 1.69, 'Chile'),
+('Igor Nunes', 'Programação', '1997-11-16', 'M', 92.10, 1.86, 'Brasil'),
+('Clara Martins', 'História', '2003-08-07', 'F', 51.60, 1.57, 'Brasil'),
+('Alexandre Pinto', 'Engenharia Mecânica', '1995-02-24', 'M', 87.50, 1.84, 'Brasil'),
+('Laura Barbosa', 'Pedagogia', '2001-10-19', 'F', 62.80, 1.65, 'Portugal'),
+('Murilo Gonçalves', 'Analista de Dados', '2000-03-06', 'M', 79.30, 1.79, 'Brasil'),
+('Elisa Andrade', 'Design Gráfico', '1999-06-15', 'F', 55.40, 1.62, 'Brasil'),
+('Arthur Melo', 'Ciência de Dados', '2002-11-27', 'M', 68.90, 1.74, 'Brasil'),
+('Heloísa Pires', 'Medicina', '1998-09-01', 'F', 64.50, 1.70, 'México'),
+
+('Ricardo Neves', 'Administração', '1996-12-13', 'M', 90.40, 1.89, 'Brasil'),
+('Luana Correia', 'Psicologia', '2003-04-25', 'F', 58.60, 1.64, 'Brasil'),
+('Enzo Martins', 'Desenvolvimento de Software', '2001-01-17', 'M', 73.20, 1.77, 'Argentina'),
+('Mirella Souza', 'Nutrição', '2000-08-29', 'F', 60.10, 1.68, 'Brasil'),
+('Otávio Lima', 'Redes de Computadores', '1997-05-12', 'M', 81.70, 1.85, 'Brasil'),
+('Yasmin Rocha', 'Jornalismo', '2002-10-04', 'F', 54.30, 1.60, 'Brasil'),
+('Bernardo Alves', 'Engenharia Elétrica', '1999-01-26', 'M', 77.80, 1.80, 'Portugal'),
+('Rafaela Duarte', 'Biomedicina', '2001-06-08', 'F', 63.40, 1.67, 'Brasil'),
+('Alex Ribeiro', 'Tecnologia da Informação', '1998-03-21', 'Outro', 70.60, 1.73, 'Brasil'),
+('Noa Fernandes', 'Programação', '2003-12-02', 'Prefiro não responder', 56.70, 1.61, 'Brasil');
+
+INSERT INTO cursos
+(nome, descricao, carga_horaria, total_aulas, ano)
+VALUES
+('Introdução à Programação', 'Fundamentos de lógica e programação para iniciantes', 40, 20, 2024),
+('Python Básico', 'Introdução à linguagem Python e seus principais recursos', 60, 30, 2025),
+('JavaScript Essencial', 'Fundamentos de JavaScript para desenvolvimento web', 50, 25, 2025),
+('HTML e CSS', 'Criação e estilização de páginas para a web', 40, 20, 2023),
+('Banco de Dados', 'Conceitos fundamentais de bancos de dados relacionais', 60, 30, 2024),
+('SQL para Iniciantes', 'Consultas e manipulação de dados utilizando SQL', 45, 22, 2026),
+('MySQL', 'Criação e gerenciamento de bancos de dados com MySQL', 50, 25, 2025),
+('Git e GitHub', 'Controle de versão e colaboração em projetos', 30, 15, 2024),
+('Linux Básico', 'Introdução ao sistema Linux e seus principais comandos', 40, 20, 2023),
+('Redes de Computadores', 'Fundamentos de redes e comunicação entre dispositivos', 60, 30, 2022),
+
+('Algoritmos', 'Estudo de algoritmos, estruturas e resolução de problemas', 50, 25, 2024),
+('Programação em Java', 'Fundamentos da linguagem Java e orientação a objetos', 80, 40, 2025),
+('Programação em C', 'Introdução à programação utilizando a linguagem C', 70, 35, 2023),
+('C++ para Iniciantes', 'Fundamentos da linguagem C++ e programação orientada a objetos', 75, 38, 2024),
+('Desenvolvimento Web', 'Criação de aplicações web utilizando tecnologias modernas', 100, 50, 2026),
+('React', 'Desenvolvimento de interfaces utilizando React', 60, 30, 2026),
+('Node.js', 'Desenvolvimento de aplicações no lado do servidor', 70, 35, 2025),
+('APIs REST', 'Criação e consumo de APIs utilizando arquitetura REST', 50, 25, 2026),
+('Segurança da Informação', 'Princípios de proteção de sistemas e informações', 60, 30, 2024),
+('Cibersegurança', 'Fundamentos de segurança e defesa de sistemas', 80, 40, 2025),
+
+('Cloud Computing', 'Conceitos de computação em nuvem e seus serviços', 60, 30, 2024),
+('DevOps', 'Integração, entrega contínua e automação de infraestrutura', 80, 40, 2026),
+('Docker', 'Conteinerização e gerenciamento de aplicações', 40, 20, 2025),
+('Kubernetes', 'Orquestração e gerenciamento de contêineres', 60, 30, 2026),
+('Ciência de Dados', 'Introdução à análise e interpretação de dados', 80, 40, 2025),
+('Inteligência Artificial', 'Conceitos fundamentais de inteligência artificial', 90, 45, 2026),
+('Machine Learning', 'Fundamentos de aprendizado de máquina', 100, 50, 2026),
+('Engenharia de Software', 'Princípios e práticas para desenvolvimento de software', 70, 35, 2023),
+('Estruturas de Dados', 'Estudo de estruturas utilizadas em programação', 60, 30, 2024),
+('Desenvolvimento Mobile', 'Criação de aplicativos para dispositivos móveis', 80, 40, 2025);

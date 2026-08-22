@@ -1,0 +1,32 @@
+services:
+  # Container do Banco de Dados MySQL
+  mysql_db:
+    image: mysql:8.0
+    container_name: mysql_servidor
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: tec_dev_sys_db
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  # Container do MySQL Workbench com Interface Web
+  workbench:
+    image: lscr.io/linuxserver/mysql-workbench:latest
+    container_name: mysql_workbench
+    restart: unless-stopped
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=America/Belem
+    ports:
+      - "3000:3000"
+      - "3001:3001"
+      - "8443:8443"
+    volumes:
+      - ./meus_modelos:/config
+      
+volumes:
+  mysql_data:
